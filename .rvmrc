@@ -1,0 +1,5 @@
+if [[ -s "~/.rvm/environments/ruby-1.9.3-p194@jquery" ]] ; then
+  . "~/.rvm/environments/ruby-1.9.3-p194@jquery"
+else
+  rvm --create use  "ruby-1.9.3-p194@jquery"
+fi
