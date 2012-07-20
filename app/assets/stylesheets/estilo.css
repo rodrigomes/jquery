@@ -12,7 +12,7 @@ src: local("../fonts/TerminalDosis-Medium"), url("../fonts/TerminalDosis-Medium.
 
 body {
   font-family: tahoma, verdana, sans-serif;
-  background:#f7f6f2 url('../images/bg-com-fundo.jpg') repeat;
+  background:#f7f6f2 url('/images/bg-com-fundo.jpg') repeat;
 }
 
 html, body {
@@ -38,7 +38,7 @@ html, body {
 
 h1.logo a{
 	display:block;
-	background:url('../images/logo-vandal.gif');
+	background:url('/images/logo-vandal.gif');
 	width:63px;
 	height:92px;
 	float:left;
