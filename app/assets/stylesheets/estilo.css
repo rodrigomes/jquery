@@ -6,13 +6,13 @@
 
 @font-face {
 font-family: "TerminalDosis-Medium";
-src: url("../fonts/TerminalDosis-Medium.eot"); /* para IE */
-src: local("../fonts/TerminalDosis-Medium"), url("../fonts/TerminalDosis-Medium.ttf") format("truetype");
+src: url("../assets/TerminalDosis-Medium.eot"); /* para IE */
+src: local("../assets/TerminalDosis-Medium"), url("../assets/TerminalDosis-Medium.ttf") format("truetype");
 }
 
 body {
   font-family: tahoma, verdana, sans-serif;
-  background:#f7f6f2 url('/images/bg-com-fundo.jpg') repeat;
+  background:#f7f6f2 url('/assets/bg-com-fundo.jpg') repeat;
 }
 
 html, body {
@@ -38,7 +38,7 @@ html, body {
 
 h1.logo a{
 	display:block;
-	background:url('/images/logo-vandal.gif');
+	background:url('/assets/logo-vandal.gif');
 	width:63px;
 	height:92px;
 	float:left;
@@ -200,7 +200,7 @@ ul.ulheader li a:hover{
 }
 
 ul.ulheader li a.contato{
-	background:url('../images/sprite-header.png');
+	background:url('/assets/sprite-header.png');
 	background-position:0 0;
 	width:24px;
 	height:20px;
@@ -212,13 +212,13 @@ ul.ulheader li a.contato:hover{
 }
 
 ul.ulheader li.face{
-	background:url('../images/like-face.jpg') no-repeat;
+	background:url('/assets/like-face.jpg') no-repeat;
 	height:21px;
 	padding:0 0 0 30px;
 }
 
 ul.ulheader li.twitter{
-	background:url('../images/twitter-header.png') no-repeat;
+	background:url('/assets/twitter-header.png') no-repeat;
 	height:21px;
 	padding:2px 0 0 30px;
 }
@@ -1204,7 +1204,7 @@ ul.status-foguete li.ativo span{
 #footer {
   background: none;  
   width: 100%;
-  background:#f7f6f2 url('../images/bg-com-fundo.jpg') repeat;
+  background:#f7f6f2 url('../assets/bg-com-fundo.jpg') repeat;
   position: absolute;
   bottom: 0;
 }
@@ -1288,7 +1288,7 @@ form.textarea-footer input[type=submit]{
 	width:350px;
 	height:80px;
 	margin-right:50px;
-	background:url('../images/bg-footer.jpg') repeat-y right;
+	background:url('../assets/bg-footer.jpg') repeat-y right;
 }
 
 p.direitos{

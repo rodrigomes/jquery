@@ -10,13 +10,13 @@
 
 @font-face {
 font-family: "TerminalDosis-Medium";
-src: url("../fonts/TerminalDosis-Medium.eot"); /* para IE */
-src: local("../fonts/TerminalDosis-Medium"), url("../fonts/TerminalDosis-Medium.ttf") format("truetype");
+src: url("../assets/TerminalDosis-Medium.eot"); /* para IE */
+src: local("../assets/TerminalDosis-Medium"), url("../assets/TerminalDosis-Medium.ttf") format("truetype");
 }
 
 body {
   font-family: tahoma, verdana, sans-serif;
-  background:#f7f6f2 url('../images/bg-com-fundo.jpg') repeat;
+  background:#f7f6f2 url('../assets/bg-com-fundo.jpg') repeat;
 }
 
 html, body {
@@ -42,7 +42,7 @@ html, body {
 
 h1.logo a{
 	display:block;
-	background:url('../images/logo-vandal.gif');
+	background:url('../assets/logo-vandal.gif');
 	width:63px;
 	height:92px;
 	float:left;
@@ -58,7 +58,7 @@ h2{
 }
 
 h2.h2instagram{
-	background:url('../images/h2instagram.jpg')no-repeat center right;
+	background:url('../assets/h2instagram.jpg')no-repeat center right;
 	width:285px;
 	padding:0 103px 0 0;
 	height:50px;
@@ -204,7 +204,7 @@ ul.ulheader li a:hover{
 }
 
 ul.ulheader li a.contato{
-	background:url('../images/sprite-header.png');
+	background:url('../assets/sprite-header.png');
 	background-position:0 0;
 	width:24px;
 	height:20px;
@@ -216,13 +216,13 @@ ul.ulheader li a.contato:hover{
 }
 
 ul.ulheader li.face{
-	background:url('../images/like-face.jpg') no-repeat;
+	background:url('../assets/like-face.jpg') no-repeat;
 	height:21px;
 	padding:0 0 0 30px;
 }
 
 ul.ulheader li.twitter{
-	background:url('../images/twitter-header.png') no-repeat;
+	background:url('../assets/twitter-header.png') no-repeat;
 	height:21px;
 	padding:2px 0 0 30px;
 }
@@ -239,7 +239,7 @@ ul.menu{
 
 ul.menu li{
 	float:left;
-	background:url('../images/separador-menu.png') no-repeat right;
+	background:url('../assets/separador-menu.png') no-repeat right;
 	padding:0 15px 0 8px;
 }
 
@@ -257,7 +257,7 @@ ul.menu li:last-child{
 }
 
 ul.menu li a.instagram{
-	background:url('../images/instagram-menu2.jpg') no-repeat;
+	background:url('../assets/instagram-menu2.jpg') no-repeat;
 	background-position:85px 3px;
 	width:110px;
 	height:40px;
@@ -265,7 +265,7 @@ ul.menu li a.instagram{
 }
 
 ul.menu li a.instagram:hover, ul.menu li a.instagram.ativo{
-	background:url('../images/instagram-menu2.jpg') no-repeat;
+	background:url('../assets/instagram-menu2.jpg') no-repeat;
 	background-position:85px -35px;
 	width:110px;
 	height:40px;
@@ -298,7 +298,7 @@ hr {
 
 
 .next{
-	background:url('../images/next.gif') no-repeat center right;
+	background:url('../assets/next.gif') no-repeat center right;
 	padding-right:20px;
 	font-family: 'TerminalDosis-Medium', sans-serif;
 	text-transform:uppercase;
@@ -313,7 +313,7 @@ hr {
 }
 
 .preview{
-	background:url('../images/preview.gif') no-repeat center left;
+	background:url('../assets/preview.gif') no-repeat center left;
 	padding-left:20px;
 	font-family: 'TerminalDosis-Medium', sans-serif;
 	text-transform:uppercase;
@@ -330,7 +330,7 @@ hr {
 /**** ELEMENTOS COMUNS ****/
 
 span.seta-right{
-	background:url('../images/seta-right-black.gif') no-repeat;
+	background:url('../assets/seta-right-black.gif') no-repeat;
 	width:23px;
 	height:26px;
 	display:block;
@@ -340,7 +340,7 @@ span.seta-right{
 
 
 span.preview-left{
-	background:url('../images/preview.gif') no-repeat center left;
+	background:url('../assets/preview.gif') no-repeat center left;
 	width:15px;
 	height:30px;
 	display:block;
@@ -349,7 +349,7 @@ span.preview-left{
 }
 
 span.lampada-right{
-	background:url('../images/lampada.gif') no-repeat;
+	background:url('../assets/lampada.gif') no-repeat;
 	width:15px;
 	height:30px;
 	display:block;
@@ -426,7 +426,7 @@ a.yellow{
 }
 
 .btvoltar{
-	background:url('../images/bt-voltar.gif');
+	background:url('../assets/bt-voltar.gif');
 	width:108px;
 	height:34px;
 	display:block;
@@ -441,7 +441,7 @@ a.yellow{
 }
 
 .login-face{
-	background:url('../images/bt-face.png') no-repeat;
+	background:url('../assets/bt-face.png') no-repeat;
 	width:225px;
 	height:39px;
 	display:block;
@@ -454,7 +454,7 @@ a.yellow{
 
 ul.generico{
 	font-size:12px;
-	list-style-image:url('../images/list-image.png');
+	list-style-image:url('../assets/list-image.png');
 	list-style-position:inside;
 	line-height:20px;
 }
@@ -586,7 +586,7 @@ ul.filtros li a:hover, ul.filtros li a.ativo{
 }
 
 ul.filtros li a.shuffle{
-	background:url('../images/shuffle.gif')no-repeat;
+	background:url('../assets/shuffle.gif')no-repeat;
 	width:16px;
 	height:15px;
 	display:block;
@@ -624,7 +624,7 @@ form.textarea-filtro input[type=submit].find{
 	height:33px;
 	color:#F2B10F;
 	border:none;
-	background:url('../images/find.jpg'); 
+	background:url('../assets/find.jpg'); 
 	float:right;	
 	margin:2px 2px 0 0;
 }
@@ -686,12 +686,12 @@ form.textarea-filtro input[type=submit].find{
 	left: 8px;
 	color: #dadada;
 	font-family: Tahoma, Verdana, Arial, sans-serif;
-	background:url('../images/likes.gif') no-repeat center left;
+	background:url('../assets/likes.gif') no-repeat center left;
 	padding:0 0 0 17px;
 }
 
 .thumb a.like{
-	background:url('../images/like.gif') no-repeat;
+	background:url('../assets/like.gif') no-repeat;
 	width:19px;
 	height:17px;
 	display:block;
@@ -738,7 +738,7 @@ ul.thumbs-categorias li a img{
 /**** PÁGINAS INSTAGRAM ****/
 
 a.login-instagram{
-	background:url('../images/login-insta.gif') no-repeat;
+	background:url('../assets/login-insta.gif') no-repeat;
 	width:284px;
 	height:57px;
 	display:block;
@@ -749,7 +749,7 @@ a.login-instagram:hover{
 }
 
 a.camisa-tipo1{
-	background:url('../images/camisas-tipo1.gif') no-repeat;
+	background:url('../assets/camisas-tipo1.gif') no-repeat;
 	width:119px;
 	height:90px;
 	display:block;
@@ -762,7 +762,7 @@ a.camisa-tipo1:hover{
 }
 
 a.camisa-tipo2{
-	background:url('../images/camisas-tipo2.gif') no-repeat;
+	background:url('../assets/camisas-tipo2.gif') no-repeat;
 	width:119px;
 	height:90px;
 	display:block;
@@ -776,7 +776,7 @@ a.camisa-tipo2:hover{
 }
 
 a.camisa-tipo3{
-	background:url('../images/camisas-tipo3.gif') no-repeat;
+	background:url('../assets/camisas-tipo3.gif') no-repeat;
 	width:119px;
 	height:90px;
 	display:block;
@@ -813,7 +813,7 @@ ul.box-fotos li a:active{
 }
 
 table.tableinstagram-1thumb, table.tableinstagram-4thumbs, table.tableinstagram-6thumbs{
-	background:url('../images/bg-tabela-instagram.jpg');
+	background:url('../assets/bg-tabela-instagram.jpg');
 	border:2px solid #494847;
 	float:right;
 	margin-bottom:10px;
@@ -856,21 +856,21 @@ table.tableinstagram-6thumbs td{
 }
 
 .icocamisa{
-	background:url('../images/ico-camisa.gif') no-repeat center left;
+	background:url('../assets/ico-camisa.gif') no-repeat center left;
 	padding-left:32px;
 	height:22px;
 	display:block;
 }
 
 .icolupa{
-	background:url('../images/ico-lupa.gif') no-repeat center left;
+	background:url('../assets/ico-lupa.gif') no-repeat center left;
 	padding-left:22px;
 	height:20px;
 	overflow: hidden;
 }
 
 .btquero{
-	background:url('../images/bt-quero.jpg') no-repeat;
+	background:url('../assets/bt-quero.jpg') no-repeat;
 	width:217px;
 	height:37px;
 	display:block;
@@ -887,7 +887,7 @@ table.tableinstagram-6thumbs td{
 }
 
 .ultamanhos li a{
-	background:url('../images/tamanhos.gif');
+	background:url('../assets/tamanhos.gif');
 }
 
 .ultamanhos li a.p{
@@ -975,7 +975,7 @@ table.tableinstagram-6thumbs td{
 }
 
 .amarrei{
-	background: #cecbc3 url('../images/bt-amarrei.png') no-repeat 15px 8px;
+	background: #cecbc3 url('../assets/bt-amarrei.png') no-repeat 15px 8px;
 	padding:6px 0 6px 40px;
 	width:100px;
 	font-family: 'TerminalDosis-Medium', sans-serif;
@@ -1006,7 +1006,7 @@ table.tableinstagram-6thumbs td{
 }
 
 .manda-amigo{
-	background:#ebe8e5 url('../images/ico-mandar-camisa.jpg') no-repeat 185px 12px;
+	background:#ebe8e5 url('../assets/ico-mandar-camisa.jpg') no-repeat 185px 12px;
 	padding:10px;
 	width:280px;
 	font-family: 'TerminalDosis-Medium', sans-serif;
@@ -1066,7 +1066,7 @@ ul.interacao-estampa li{
 }
 
 .excluir{
-	background:url('../images/bt-fechar.png') no-repeat;
+	background:url('../assets/bt-fechar.png') no-repeat;
 	width:28px;
 	height:28px;
 	display:block;
@@ -1095,7 +1095,7 @@ input[type=text].input-frete{
 }
 
 .concluir{
-	background:url('../images/bt-concluir-pedido.jpg') no-repeat;
+	background:url('../assets/bt-concluir-pedido.jpg') no-repeat;
 	width:217px;
 	height:43px;
 	display:block;
@@ -1106,7 +1106,7 @@ input[type=text].input-frete{
 }
 
 .login-face2{
-	background:url('../images/bt-face2.png') no-repeat;
+	background:url('../assets/bt-face2.png') no-repeat;
 	width:300px;
 	height:44px;
 	display:block;
@@ -1118,7 +1118,7 @@ input[type=text].input-frete{
 }
 
 .login-face3{
-	background:url('../images/bt-face3.png') no-repeat;
+	background:url('../assets/bt-face3.png') no-repeat;
 	width:300px;
 	height:44px;
 	display:block;
@@ -1174,7 +1174,7 @@ ul.status-foguete li.ativo span{
 }
 
 .share-fb{
-	background:url('../images/bt-share-fb.png') no-repeat;
+	background:url('../assets/bt-share-fb.png') no-repeat;
 	width:81px;
 	height:34px;
 	display:block;
@@ -1185,7 +1185,7 @@ ul.status-foguete li.ativo span{
 }
 
 .share-twit{
-	background:url('../images/bt-share-twit.png') no-repeat;
+	background:url('../assets/bt-share-twit.png') no-repeat;
 	width:81px;
 	height:34px;
 	display:block;
@@ -1208,7 +1208,7 @@ ul.status-foguete li.ativo span{
 #footer {
   background: none;  
   width: 100%;
-  background:#f7f6f2 url('../images/bg-com-fundo.jpg') repeat;
+  background:#f7f6f2 url('../assets/bg-com-fundo.jpg') repeat;
   position: absolute;
   bottom: 0;
 }
@@ -1292,7 +1292,7 @@ form.textarea-footer input[type=submit]{
 	width:350px;
 	height:80px;
 	margin-right:50px;
-	background:url('../images/bg-footer.jpg') repeat-y right;
+	background:url('../assets/bg-footer.jpg') repeat-y right;
 }
 
 p.direitos{
