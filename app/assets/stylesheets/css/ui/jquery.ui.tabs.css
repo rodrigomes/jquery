@@ -1,0 +1,38 @@
+/*!
+ * jQuery UI Tabs 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs { position: relative; padding: 0; margin: 0; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 15px 0 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; width:109px; height:25px; text-align:center; padding-top:5px; font-family: 'TerminalDosis-Medium', sans-serif; text-transform:uppercase;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 20px 0 10px 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+.ui-tabs-nav { width:960px; margin: 0 auto;}
+
+#tabs{
+	width:100%;
+	min-height:20px;
+	margin:0;
+	padding:0;
+}
+
+#tabs div{
+	width:100%;
+	background:#414141;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	background:url('../../images/bt-cats.jpg') no-repeat;
+	width:109px; 
+	height:30px;
+	padding-top:5px;
+	color:#F6BD0D;
+}
